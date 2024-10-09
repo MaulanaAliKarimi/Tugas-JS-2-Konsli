@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+        <title>tahun kabisat</title>
+    </head>
+    <body>
+        <script>
+            let tahun = prompt("masukkan tahun:");
+
+            tahun = parseInt(tahun);
+
+            
+
+            if (isNaN(tahun)) {
+                console.log("harus diisi !!");
+            } else {
+                if (tahun % 4 === 0) {
+                    console.log("Tahun itu adalah tahun kabisat");
+                }
+
+                else if (tahun % 4 !== 0) {
+                    console.log("Tahun itu bukan tahun kabisat !")
+                }
+            }
+
+        </script>
+    </body>
+</html>
